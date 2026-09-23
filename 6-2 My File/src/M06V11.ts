@@ -4,7 +4,7 @@
 //* Example: 01
 const arrayOfNum: number[] = [1, 4, 6];
 
-const arrayOfstring: string[] = ["1", "4", "6"]; //instead of this line we can use next line for big number array
+const arrayOfstring: string[] = ["1", "4", "6"]; //instead of this line we can use next line for big number array by map
 
 const arrayOfStringUsingMap: string[] = arrayOfNum.map((num) => num.toString());
 

@@ -3,13 +3,11 @@
 //* any type e anything. e kono suggestin dibe na
 let anything : any;
 anything = "Mezba";
-(anything as string).at //string define koray suggestion dibe dot er por
+(anything as string).length //string define koray suggestion dibe dot er por .length
 
 //* Example 01:
 
-const kgToGMConverter = (
-  input: string | number
-): string | number | undefined => {
+const kgToGMConverter = (input: string | number): string | number | undefined => {
   if (typeof input === "number") {
     return input * 1000;
   } else if (typeof input === "string") {

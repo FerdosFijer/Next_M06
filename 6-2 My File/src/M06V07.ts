@@ -14,7 +14,7 @@ const myVehicle1: MyVehicle1 = "bike";
 type MyVehicle2 = keyof RichPeoplesVehicle;
 const myVehicle2: MyVehicle2 = "car";
 
-//* what is constrain 
+//* what is keyof constrain 
 
 const user0 = {
     id: 222, // key: value
@@ -57,7 +57,7 @@ const user2: User = {
 };
 const getPropertyFromObj2 = (obj: User, key: "id" | "name" | "address") => {
     return obj[key];
-}; // Now red mark cole gese but onek obj ki eivabe likha jay?? Tai solution: 
+}; // Now red mark cole gese but onek obj ki eivabe likha jay?? Tai next line ta solution: 
 
 const getPropertyFromObjMain = <X>(obj: X, key: keyof X) => {
   return obj[key];

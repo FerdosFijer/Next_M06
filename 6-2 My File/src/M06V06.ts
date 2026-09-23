@@ -32,4 +32,5 @@ const student3 = {
 };
 
 const result = addStudentToCourse(student3);
+const result1 = addStudentToCourse(student2);
 console.log(result);

@@ -59,7 +59,9 @@ interface IAdd {
 
 const add: IAdd = (num1, num2) => num1 + num2;
 
-type Friends = string[];
+//* Example 05  
+
+// type Friends = string[];
 
 interface IFriends {
   [index: number]: string;

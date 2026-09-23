@@ -31,5 +31,5 @@ const canEdit = (role: UserRoles2) => {
 const isEditPermissable2 = canEdit(UserRoles2.Admin);
 console.log(isEditPermissable2);
 
-//! node --experimental-transform-types .\src\M06V08.ts 
+//! console e eta likbo: node --experimental-transform-types .\src\M06V08.ts 
 //! the flag --experimental-transform-types was added to enable TypeScript-only syntax that requires transformation, like enums and namespace.

@@ -1,6 +1,6 @@
-//! Generics in typescript means dynamic generalize
+//! Generics in typescript means dynamically generalize
 
-// * Example: 01
+// * Example: 01 Generics
 type GenericArray<T> = Array<T>;
 
 // const friends: string[] = ["Mr. X", "Mr. Y", "Mr. Z"];
@@ -18,7 +18,7 @@ const sqrFunc = (value: number) =>{
 }
 sqrFunc(4)
 
-// * Example: 02 for tuple use
+// * Example: 02 Generics for tuple use
 type Coordinates<X, Y> = [X, Y];
 
 const coordinates1: Coordinates<number, number> = [20, 30];

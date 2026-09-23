@@ -1,7 +1,7 @@
 //! Generic with Function : shobgulo dynamic kora sikbo 
 
 //* Generic Function use to make "array"
-
+//*Example: 01 
 // const createArrayWithString = (value: string) => [value];
 
 // const createArrayWithNumber = (value: number) => [value];
@@ -28,12 +28,8 @@ const createArrayWithTuple = (param1: string, param2: string) => [
 ];
 
 //* Generic Function use to make Array of "tuple"
-
-//*Example: 01 
-const createArrayTupleWithGeneric = <X, Y>(param1: X, param2: Y) => [
-  param1,
-  param2,
-];
+//*Example: 02 
+const createArrayTupleWithGeneric = <X, Y>(param1: X, param2: Y) => [ param1,param2,];
 
 const res1 = createArrayTupleWithGeneric("Mezba", false);
 const res2 = createArrayTupleWithGeneric(222, { name: "Mezba" });
@@ -41,7 +37,7 @@ const res2 = createArrayTupleWithGeneric(222, { name: "Mezba" });
 //*Example: 02
 const addStudentToCourse = <T>(studentInfo: T) => {
   return {
-    // course: "Next Level",
+    course: "Next Level",
     ...studentInfo,
   };
 };

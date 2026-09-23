@@ -8,12 +8,12 @@
 } */
 
 const UserRoles2 = {
-    Admin: "Admin",
+    Admin: "ADMIN",
     Editor: "Editor",
     Viewer: "Viewer",
 } as const;
 
-/* readyonly ta bose jay modifier hisebe::::
+/* as const use korar jonno readyonly ta (hide akare) bose jay modifier hisebe ::::
 { 
   readonly Admin: "Admin",
   readonly Editor: "Editor",
